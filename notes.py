@@ -2,7 +2,7 @@ import json
 import os
 from datetime import datetime
 
-FILE = "notes.json"
+FILE = "public/notes.json"
 
 # load existing notes (or start empty)
 if os.path.exists(FILE):
